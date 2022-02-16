@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  background-image: url(../image/cloude.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.main .para p {
+  padding-top: 20px;
+  color: green;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.main .image {
+  align-items: center;
+  display: flex;
+  border-radius: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  overflow: hidden;
+  padding: 5px;
+  margin: auto;
+}
+.image input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 19px;
+}
+.image img {
+  height: 40px;
+  width: 40px;
+}
+.main p {
+  color: green;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 600px){
+ .image input{
+   font-size:14px;
+ } 
+}
